@@ -3,16 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "start": "ts-node-esm ./src/add_contributor.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@lokalise/node-api": "^9.0.0"
+    "@lokalise/node-api": "^12.0.0"
   },
   "devDependencies": {
-    "@types/node": "^18.7.23"
+    "@types/node": "^20.8.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
   },
   "type": "module"
 }
